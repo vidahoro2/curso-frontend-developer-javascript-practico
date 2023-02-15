@@ -29,7 +29,7 @@ menuHamIcon.addEventListener('click',()=>{
         shoppingCartContainer.classList.add('inactive');
 
     }
-
+    closeProductDetailAside();
     moblileMenu.classList.toggle('inactive');
 
 })
@@ -61,10 +61,9 @@ productDetailCloseIcon.addEventListener('click',()=>{
 
     productDetailContainer.classList.add('inactive');
 
-
-
-
 })
+
+
 
 function openProductDetailAside(){
 
@@ -73,6 +72,10 @@ function openProductDetailAside(){
     productDetailContainer.classList.remove('inactive');
 
 
+}
+
+function closeProductDetailAside(){
+    productDetailContainer.classList.add('inactive');
 }
 
 
